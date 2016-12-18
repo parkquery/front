@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff) format('woff')
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff) format('woff')
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/NotoSansKR-Bold.woff) format('woff')
+}
+
+html {-webkit-text-size-adjust:none}
+body{line-height:1.4;font-family:"Noto Sans KR";word-break:keep-all;color:#555}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, button,textarea{margin:0;padding:0;font-size:14px;font-weight:100}
+h1, h2, h3, h4, h5, h6{line-height:1}
+ul, ol, li{list-style:none}
+hr{position:absolute;left:-1000%;top:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
+fieldset{border:none}
+a{text-decoration:none;color:#555}
+a:hover, a:active, a:visited{text-decoration:none;/* color:#555 */}
+img{border:0;vertical-align:top}
+button,input,select,textarea{vertical-align:middle;font-family:inherit}
+button{border:0;background-color:transparent;cursor:pointer;text-align:left;color:#555}
+input[type=text],input[type=password],select,textarea{border:1px solid #ccc;box-sizing:border-box;height:32px;padding-left:5px;line-height:32px;}
+input[type=text],input[type=search],input[type=password]{-webkit-border-radius:0;-webkit-appearance:none;box-sizing:border-box}
+input:not([type="file"]),select{height:32px;border:1px solid #ccc;background-color:#fff;vertical-align:middle}
+select{height:32px;font-size:13px;font-weight:100;color:#777;box-sizing:border-box;border-radius:0}
+textarea{resize:none;box-sizing:border-box;-webkit-appearance:none;width:100%;padding:10px;border:1px solid #ccc;border-radius:0}
+em,address{font-style:normal}
+table{width:100%;table-layout:fixed;word-wrap:break-word;border-collapse:collapse}
+label{vertical-align:middle;cursor:pointer}
+strong{font-weight:400;color:#333}
+sup{font-size:10px}
+mark{background-color:#fff}
+::-webkit-input-placeholder{font-size:13px;color:#777}
+::-moz-placeholder{font-size:13px;color:#777}
+:-ms-input-placeholder{font-size:13px;color:#777}
+input:-moz-placeholder{font-size:13px;color:#777}
+
+@media all and (max-width:1024px){
+  input:not([type="file"]),select{height:36px}
+}
